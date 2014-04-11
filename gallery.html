@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- The mistakes and experiments in this code are my own as I learn to code JavaScript. The correct bits are from a great book DOM Scripting.
+http://www.amazon.com/DOM-Scripting-Design-JavaScript-Document/dp/1430233893
+ -->
+<html lang= "en">
+<head>
+	<meta charset="utf-8" />
+	<title>Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+	<h1>Snapshots</h1>
+	<ul id="imagegallery">
+		<li>
+			<a href = "http://placekitten.com/200/300" title = "A fireworks display">Fireworks</a>
+		</li>
+		<li>
+			<a href = "http://placekitten.com/250/300" title = "A cup of black coffee">Coffee</a>
+		</li>
+		<li>
+			<a href = "http://placekitten.com/300/300" title = "A red, red rose">Rose</a>
+		</li>
+		<li>
+			<a href = "http://placekitten.com/350/300" title = "The famous clock">Big Ben</a>
+		</li>
+		<li>
+			<a href = "http://www.example.com" class = "popup" >Pop Up Test</a>
+		</li>
+	</ul>
+	<img id = "placeholder" src = "images/placeholder.gif" alt = "my image gallery" />
+	<p id = "description">Choose an image</p>
+	<script type="text/javascript" src="showPic.js"></script>
+	<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
