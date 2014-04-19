@@ -23,11 +23,34 @@ ul {
 
 li {
 	float: left;
-	padding: 1em;
 	list-style: none;
+	padding: 1em;
 }
+
+#imagegallery {
+	list-style: none;
+
+}
+
+#imagegallery li {
+	display: inline;
+	/*padding: 1em;*/
+}
+
+#imagegallery li a img {
+	border: 0;
+	height: 50px;
+	width: 60px;
+}
+
 
 img {
 	display: block;
 	clear: both;
 }
+
+
+
+
+
+

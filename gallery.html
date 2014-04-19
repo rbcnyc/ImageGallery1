@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<!-- The mistakes and experiments in this code are my own as I learn to code JavaScript. The correct bits are from a great book DOM Scripting.
-http://www.amazon.com/DOM-Scripting-Design-JavaScript-Document/dp/1430233893
+<!-- The correct bits are from a great book DOM Scripting. http://www.amazon.com/DOM-Scripting-Design-JavaScript-Document/dp/1430233893. The mistakes and experiments are my own as I learn JavaScript. 
  -->
 <html lang= "en">
 <head>
@@ -12,23 +11,31 @@ http://www.amazon.com/DOM-Scripting-Design-JavaScript-Document/dp/1430233893
 	<h1>Snapshots</h1>
 	<ul id="imagegallery">
 		<li>
-			<a href = "http://placekitten.com/200/300" title = "A fireworks display">Fireworks</a>
+			<a href = "images/1-scene.jpg" title = "Frankfurt in the spring"> 
+				<img src = "images/1-scene.jpg" alt="Frankfurt" />
+			</a>
 		</li>
 		<li>
-			<a href = "http://placekitten.com/250/300" title = "A cup of black coffee">Coffee</a>
+			<a href = "images/2-scene.jpg" title = "A Siberian morning">
+				<img src = "images/2-scene.jpg" alt="Siberia"/>
+			</a>
 		</li>
 		<li>
-			<a href = "http://placekitten.com/300/300" title = "A red, red rose">Rose</a>
+			<a href = "images/3-scene.jpg" title = "A red, red sun">
+				<img src = "images/3-scene.jpg" alt="Sun"/>
+			</a>
 		</li>
 		<li>
-			<a href = "http://placekitten.com/350/300" title = "The famous clock">Big Ben</a>
+			<a href = "images/4-scene.jpg" title = "Elephants in the mist">
+				<img src = "images/4-scene.jpg" alt="Elephants"/>
+			</a>
 		</li>
 		<li>
 			<a href = "http://www.example.com" class = "popup" >Pop Up Test</a>
 		</li>
 	</ul>
-	<img id = "placeholder" src = "images/placeholder.gif" alt = "my image gallery" />
-	<p id = "description">Choose an image</p>
+<!-- 	<img id = "placeholder" src = "images/placeholder.gif" alt = "my image gallery" />
+	<p id = "description">Choose an image</p> -->
 	<script type="text/javascript" src="showPic.js"></script>
 	<script type="text/javascript" src="popup.js"></script>
 </body>
