@@ -1,3 +1,5 @@
+
+
 // Introducing the following behaviour:
 // click on link, remain on same page
 // click a link, see preview of the image on the same page 
@@ -30,11 +32,11 @@ function insertAfter(newElement,targetElement){
 }
 
 function preparePlaceholder(){
-	// test brower support
-	if(!document.createElement) return false:
-	if(!document.createTextNode) return false:
-	if(!document.getElementById) return false:
-	if(!document.getElementById("imagegallery")) return false:
+// 	// test brower support
+// 	if(!document.createElement) return false;
+// 	if(!document.createTextNode) return false;
+// 	if(!document.getElementById) return false;
+// 	if(!document.getElementById("imagegallery")) return false;
 
 	// Create an image element nodeType with id, src and alt attributes
 	var placeholder = document.createElement("IMG");
